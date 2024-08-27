@@ -25,7 +25,7 @@ app.use('/users', userRoute);
 app.listen(port, ()=>{
     try {
         console.log(`Server is running on port ${port}`);
-    } catch (error) {
+    } catch (error) { 
         console.log(`Server is not running due to ${error}`);
     }
 })
